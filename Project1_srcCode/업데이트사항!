@@ -1,0 +1,5 @@
+Github에 PLMS에 올려져 있는 pintOS Source code를 올려 놓음. booting 확인 완료 하였고, make check까지 해본 결과, check의 default emulator가 qmenu로 되어 있는데 grading이 잘 안되는 상황 발생
+그래서 master -> test branch에 Make.vars 파일을 수정하여 qmenu를 bochs로 수정해보았더니 grading 잘 됨. 이는 아직 어떻게 될지 몰라서 merge는 안해놓고 branch로만 둠.
+------------------------------------------------------------------------2021.09.14. 23:58/P.M.--------------------------------------------------------------------------------------
+thread.h thread structure member 주석 한글화 처리 및 추가 설명 - 2021.09.21
+
